@@ -51,30 +51,41 @@ To get a local copy up and running, follow these steps.
 - MySQL database
 - JDBC Driver for MySQL
 
+
+
 ### Installation
 
 1. **Clone the repository:**
    ```sh
    git clone https://github.com/your-username/JavaJDBC-CRUD-Operations.git
    cd JavaJDBC-CRUD-Operations
+   ```
+
 
 2. **Create the MySQL Database**
+   ```
    CREATE DATABASE kodnest;
     USE kodnest;
     CREATE TABLE student (
         id INT PRIMARY KEY,
         name VARCHAR(50)
     );
+    ```
 
+   
 3. **Update Database Credentials**
+   ```
     String url = "jdbc:mysql://localhost/kodnest";
     String uName = "root";
     String pwd = "your_password";
+    ```
 
 
 4. **Compile and run the application**
+   ```
     javac -d bin src/com/kodnest/mysql/*.java
     java -cp bin com.kodnest.mysql.Application
+    ```
 
 
 
@@ -105,9 +116,12 @@ Contributions are what make the open source community such an amazing place to b
 5. Open a Pull Request
 
 
+
 ## License
 
 This project is for personal or educational use only. It cannot be sold or used by others without permission. See the [LICENSE](LICENSE.md) file for details.
+
+
 
 ## Contact
 For any inquiries or support, please reach out through the following channels
