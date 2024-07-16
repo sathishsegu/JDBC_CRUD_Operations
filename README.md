@@ -7,7 +7,7 @@
 - [Technologies Used](#technologies-used)
 - [Getting Started](#getting-started)
   - [Prerequisites](#prerequisites)
-  - [Installation](#SetupandInstallation)
+  - [Installation](#Installation)
 - [Usage](#usage)
 - [Contributing](#contributing)
 - [License](#license)
@@ -51,7 +51,7 @@ To get a local copy up and running, follow these steps.
 - MySQL database
 - JDBC Driver for MySQL
 
-### Setup and Installation
+### Installation
 
 1. **Clone the repository:**
    ```sh
