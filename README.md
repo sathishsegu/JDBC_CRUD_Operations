@@ -96,13 +96,14 @@ To get a local copy up and running, follow these steps.
   
    
 2. Application Menu:
+   ```
      Application Started.....
       1. Insert the record
       2. Update the record
       3. Delete the record
       4. Exit
       Enter an option to execute DB operations: 
-
+    ```
 
 
 ## Contributing
